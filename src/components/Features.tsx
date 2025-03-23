@@ -1,4 +1,3 @@
-
 import React from 'react';
 import FeatureCard from './FeatureCard';
 import { 
@@ -7,7 +6,7 @@ import {
   Palette, 
   Scissors, 
   Monitor, 
-  Transition, 
+  ArrowRightLeft, 
   Music, 
   ZoomIn 
 } from 'lucide-react';
@@ -40,7 +39,7 @@ const Features = () => {
       description: "Export your videos in up to 1080p or 720p resolution, ensuring your content looks crisp on any device."
     },
     {
-      icon: <Transition className="h-6 w-6" />,
+      icon: <ArrowRightLeft className="h-6 w-6" />,
       title: "Automatic Transitions",
       description: "Apply seamless transitions between clips with our AI-powered technology for a polished look."
     },
